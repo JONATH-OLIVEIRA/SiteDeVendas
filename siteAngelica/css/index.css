@@ -1,0 +1,29 @@
+
+.carrosel{
+    width: 330px;
+    height: 250px;
+    outline: 0px solid black;
+   overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.7);
+
+}
+
+.carrosel ul{
+    list-style: none;
+    width: 2000px;
+    height: 250px;
+    display: flex;
+}
+.carrosel li{
+    position: relative;
+    animation: slide 15s infinite ease-out;
+
+
+}
+@keyframes slide {
+    0%{left: 0px;}
+
+    50% {left: -400px;}
+    
+}
